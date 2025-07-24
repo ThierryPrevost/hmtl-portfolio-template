@@ -165,22 +165,12 @@ function kura_tm_service_popup(){
 		modalBox.find('.popup_informations').prepend('<div class="image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+elImage+'"></div></div>');
 		kura_tm_data_images();
 		modalBox.find('.popup_informations .image').after('<div class="title"><h3>'+title+'</h3></div>');
-		return false;
-	});
 
-
-        // ... lignes pour ajouter l'image et le titre ...
-
-		kura_tm_data_images();
+		// <<< C'EST LA LIGNE À AJOUTER
+		kura_tm_imgtosvg();
 		
-        // AJOUTEZ LA LIGNE SUIVANTE ICI :
-        kura_tm_imgtosvg();
-
-		modalBox.find('.popup_informations .image').after('<div class="title"><h3>'+title+'</h3></div>');
 		return false;
 	});
-    	// ... reste de la fonction	
-
 	
 	closePopup.on('click',function(){
 		modalBox.removeClass('opened');
@@ -212,6 +202,8 @@ function kura_tm_news_popup(){
 		modalBox.find('.news_popup_informations').prepend('<div class="image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
 		modalBox.find('.news_popup_informations .image').after('<div class="details">'+details+'<div>');
 		kura_tm_data_images();
+		// <<< C'EST LA LIGNE À AJOUTER
+		kura_tm_imgtosvg();
 		return false;
 	});
 
@@ -258,6 +250,8 @@ function kura_tm_portfolio_popup(){
 		modalBox.find('.popup_details').prepend('<div class="top_image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
 		modalBox.find('.popup_details .top_image').after('<div class="portfolio_main_title">'+details+'<div>');
 		kura_tm_data_images();
+		// <<< C'EST LA LIGNE À AJOUTER
+		kura_tm_imgtosvg();		
 		return false;
 	});
 
