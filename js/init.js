@@ -167,6 +167,21 @@ function kura_tm_service_popup(){
 		modalBox.find('.popup_informations .image').after('<div class="title"><h3>'+title+'</h3></div>');
 		return false;
 	});
+
+
+        // ... lignes pour ajouter l'image et le titre ...
+
+		kura_tm_data_images();
+		
+        // AJOUTEZ LA LIGNE SUIVANTE ICI :
+        kura_tm_imgtosvg();
+
+		modalBox.find('.popup_informations .image').after('<div class="title"><h3>'+title+'</h3></div>');
+		return false;
+	});
+    	// ... reste de la fonction	
+
+	
 	closePopup.on('click',function(){
 		modalBox.removeClass('opened');
 		modalBox.find('.description_wrap').html('');
