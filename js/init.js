@@ -4,6 +4,7 @@
  * This file is made for CURRENT TEMPLATE
 */
 
+
 jQuery(document).ready(function(){
 
 	"use strict";
@@ -143,7 +144,7 @@ function kura_tm_hero_image(){
 }
 
 // -------------------------------------------------
-// -------------  SERVICE POPUP (CORRIGÉE) -------------------
+// -------------  SERVICE POPUP  -------------------
 // -------------------------------------------------
 
 function kura_tm_service_popup(){
@@ -164,7 +165,7 @@ function kura_tm_service_popup(){
 		modalBox.find('.popup_informations').prepend('<div class="image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+elImage+'"></div></div>');
 		kura_tm_data_images();
 		modalBox.find('.popup_informations .image').after('<div class="title"><h3>'+title+'</h3></div>');
-		
+
 		kura_tm_imgtosvg();
 		
 		return false;
@@ -178,7 +179,7 @@ function kura_tm_service_popup(){
 }
 
 // -------------------------------------------------
-// ----------------  NEWS POPUP (CORRIGÉE) -------------------
+// ----------------  NEWS POPUP  -------------------
 // -------------------------------------------------
 
 function kura_tm_news_popup(){
@@ -200,9 +201,9 @@ function kura_tm_news_popup(){
 		modalBox.find('.news_popup_informations').prepend('<div class="image"><img src="img/thumbs/4-2.jpg" alt="" /><div class="main" data-img-url="'+image+'"></div></div>');
 		modalBox.find('.news_popup_informations .image').after('<div class="details">'+details+'<div>');
 		kura_tm_data_images();
-
+		
 		kura_tm_imgtosvg();
-
+		
 		return false;
 	});
 	
@@ -214,7 +215,7 @@ function kura_tm_news_popup(){
 }
 
 // -------------------------------------------------
-// -----------  PORTFOLIO POPUP (CORRIGÉE) -------------------
+// -----------  PORTFOLIO POPUP  -------------------
 // -------------------------------------------------
 
 function kura_tm_portfolio_popup(){
