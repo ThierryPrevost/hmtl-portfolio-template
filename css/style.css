@@ -623,14 +623,26 @@ body.opened .kura_tm_hero .content .left{
 	/*margin-left: 20px;*/
 	z-index: 111111;
 }
-.kura_tm_modalbox .close a{
-	text-decoration: none;
-	color: #fff;
+
+/* Donne une taille à la zone cliquable du bouton fermer */
+.kura_tm_modalbox .close a {
+    text-decoration: none;
+    color: #fff;	
+    display: block;
+    width: 40px;  /* Ajustez la taille si besoin */
+    height: 40px; /* Ajustez la taille si besoin */
 }
-.kura_tm_modalbox .close .svg{
-	width: 50px;
-	height: 50px;
+
+/* Fait en sorte que le SVG remplisse la zone cliquable */
+.kura_tm_modalbox .close a svg {
+	/* width: 50px; */
+	/* height: 50px; */
+    	width: 100%;
+    	height: 100%;
+    	fill: #000000; /* Optionnel : force la couleur de la croix en noir */
 }
+
+
 .kura_tm_modalbox .description_wrap{
 	position: relative;
 	width: 100%;
