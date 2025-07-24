@@ -153,7 +153,7 @@ function kura_tm_service_popup(){
 	
 	var modalBox		= jQuery('.kura_tm_modalbox');
 	var button			= jQuery('.kura_tm_hero .services ul li a');
-	var closePopup		= modalBox.find('.close');
+	var closePopup		= modalBox.find('.modal-close-button');
 	
 	button.on('click',function(){
 		var element = jQuery(this);
@@ -188,7 +188,7 @@ function kura_tm_news_popup(){
 	
 	var modalBox		= jQuery('.kura_tm_modalbox');
 	var button			= jQuery('.kura_tm_news .list_inner .kura_tm_full_link');
-	var closePopup		= modalBox.find('.close');
+	var closePopup		= modalBox.find('.modal-close-button');
 	
 	button.on('click',function(){
 		var element = jQuery(this);
@@ -224,7 +224,7 @@ function kura_tm_portfolio_popup(){
 	
 	var modalBox		= jQuery('.kura_tm_modalbox');
 	var button			= jQuery('.kura_tm_portfolio .list_inner .portfolio_popup');
-	var closePopup		= modalBox.find('.close');
+	var closePopup		= modalBox.find('.modal-close-button');
 	
 	button.on('click',function(){
 		var element = jQuery(this);
