@@ -590,7 +590,8 @@ body.opened .kura_tm_hero .content .left{
 	visibility: visible;
 }
 .kura_tm_modalbox .box_inner{
-	position: absolute;
+	/* position: absolute; */
+	position: relative;
 	top: 70px;
 	bottom: 70px;
 	width: 968px;
