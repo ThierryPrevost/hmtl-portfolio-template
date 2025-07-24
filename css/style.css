@@ -614,7 +614,7 @@ body.opened .kura_tm_hero .content .left{
 	visibility: visible;
 	margin-top: 0px;
 }
-.kura_tm_modalbox .close{
+.kura_tm_modalbox .modal-close-button{
 	position: fixed;
 	/*left: 100%;*/
 	/*top: 0px;*/
@@ -625,7 +625,7 @@ body.opened .kura_tm_hero .content .left{
 }
 
 /* Donne une taille à la zone cliquable du bouton fermer */
-.kura_tm_modalbox .close a {
+.kura_tm_modalbox .modal-close-button a {
     text-decoration: none;
     color: #fff;	
     display: block;
@@ -634,7 +634,7 @@ body.opened .kura_tm_hero .content .left{
 }
 
 /* Fait en sorte que le SVG remplisse la zone cliquable */
-.kura_tm_modalbox .close a svg {
+.kura_tm_modalbox .modal-close-button a svg {
 	/* width: 50px; */
 	/* height: 50px; */
     	width: 100%;
