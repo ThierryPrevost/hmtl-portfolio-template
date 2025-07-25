@@ -597,7 +597,7 @@ body.opened .kura_tm_hero .content .left{
 	width: 968px;
 	left: 50%;
 	transform: translateX(-50%);
-	background-color: #fff;
+	background-color: white;
 	z-index: 1;
 	opacity: 0;
 	visibility: hidden;
