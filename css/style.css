@@ -652,6 +652,8 @@ body.opened .kura_tm_hero .content .left{
 	overflow: hidden;
 	padding: 50px;
 	overflow-y: scroll;
+	/* ajout */
+	background-color: white;
 }
 .kura_tm_hero .popup_informations{
 	opacity: 0;
