@@ -652,8 +652,6 @@ body.opened .kura_tm_hero .content .left{
 	overflow: hidden;
 	padding: 50px;
 	overflow-y: scroll;
-	/* ajout */
-	background-color: white;
 }
 .kura_tm_hero .popup_informations{
 	opacity: 0;
@@ -718,7 +716,8 @@ body.opened .kura_tm_hero .content .left{
   background: #fff;
 }
 .kura_tm_modalbox .description_wrap::-webkit-scrollbar-thumb{
-  background-color: #999;
+  /* background-color: #999; */
+  background-color: white;
   border-radius: 6px;
   border: 3px solid #fff;
 }
